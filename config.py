@@ -2,7 +2,7 @@ import os
 
 class Config:
   '''
-  general configaration class
+  general configuration class
   '''
   NEWS_API_BASE_URL = 'https://newsapi.org/v2/{}?language=en&apiKey={}'
   NEWS_API_KEY = 'b58639b93a564639907c634b2cd74203'
@@ -11,14 +11,14 @@ class Config:
 
 class ProdConfig(Config):
     '''
-    production configuration class
+    production config class
     '''
     pass
 
 
 class DevConfig(Config):
     '''
-    development configuration class
+    dev config class
     '''
     DEBUG = True
 
