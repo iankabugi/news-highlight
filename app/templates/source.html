@@ -1,0 +1,26 @@
+<html lang="en">
+<body>
+    <div class='row'>
+        <div class='col-md-4'>
+        <ul>
+            {% for news_sources in sources %}
+            <p><strong>{{news_sources.name}}</strong></p>
+            <p>{{news_sources.descript<head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                    <title>Document</title>
+                </head>ion}}</p>
+            <span class="label label-primary"><a class='fnt' href={{news_sources.url}} target="iframe_a">View more details..</a></span>
+            <br>
+            {% endfor %}
+    
+        </ul>
+        </div>
+        <div class='col-md-8'>
+        <iframe height="100%" width="100%" name="iframe_a"></iframe>
+        </div>
+    </div>
+</body>
+      
+</html>
