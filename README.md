@@ -1,7 +1,7 @@
 # News-highlight
 
 ## Description
- This is flask project that was ment for mainly people whoare busy and need a news app tha tells them whats happening around the world in just a click of the button.I have done using fkask a microframework for python.
+ This is flask project that was meant for mainly people whoare busy and need a news app tha tells them whats happening around the world in just a click of the button.I have done using fkask a microframework for python.
 ## Author
 
  **Ian Kabugi** 
