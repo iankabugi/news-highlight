@@ -13,18 +13,16 @@ class Article:
         self.publishedAt = publishedAt
         self.content = content
 
+
 class Source:
     '''
-    News source class to define news source objects
+    Source class to define Objects
     '''
-    def __init__(self, id, name, description, url, category, language, country):
-        self.id = id
+
+    def __init__(self,id,name,description):
+        self.id =id
         self.name = name
         self.description = description
-        self.url = url
-        self.category = category
-        self.language = language
-        self.country = country
 
 
 
