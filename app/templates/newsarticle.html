@@ -1,0 +1,18 @@
+<!-- <html lang="en"> -->
+<!-- <body> -->
+<div class='row'>
+    <div class='articles'>
+        <ul>
+        {% for news_articles in articles %}
+        <p><strong>{{news_articles.name.name}}</strong></p>
+        <img src='{{news_articles.urlToImage}}'width ="250" height ="250" alt="">
+        <p>Story By: {{news_articles.author}}</p>
+        <p>{{news_articles.description}}</p>
+        <span class="label label-primary"><a href={{news_articles.url}} target="iframe_a">View more details..</a></span>
+        
+        <p>Posted on : {{news_articles.publishedAt}}</p>
+        <p>{{news_articles.content}}</p>
+        {% endfor %}
+        </ul>
+    </div> 
+</div>

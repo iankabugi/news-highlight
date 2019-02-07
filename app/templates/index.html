@@ -1,10 +1,12 @@
-{% extends 'base.html' %}
+{% extends 'base.html'%}
+
 {% block content %}
 <div class="container">
-  <div class="col-md-12">
-    <h1 class="text-center">THIS WHATS HAPPENIG AROUND THE WORLD</h1>
-  </div>
+    <h1 class="text-center" font-weight="400">THIS WHATS HAPPENING AROUND THE WORLD</h1>
+  <div>
+      <center><img src="{{url_for('static', filename='img/newsimage.jpg')}}" alt="News Paper"
+        width="100%" height="100%"></center>
+    </div>
 
-  <hr>
 </div>
 {% endblock %}

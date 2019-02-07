@@ -1,23 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    
-    <title>Document</title>
-</head>
-    <body>
-        
-    <ul class="nav navbar-nav">
-        <div class="container-fluid">
-            <div class="col-md-12">
-                <span class="label label-primary"><a href="/">Home</a></span>
-                <span class="label label-primary"><a href="/newsarticle">News Articles</a></span>
-                <span class="label label-primary"><a href="/newssource">News Sources</a></span>
-            </div>
+{% extends 'bootstrap/base.html'%}
+<html>
+  <head>
+    <meta charset="utf-8">
+    {% block styles%}
+        {{ super() }}
+        <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+    {% endblock %}
+    <!-- Latest compiled and minified CSS -->
+     <!-- Latest compiled and minified CSS -->
+   <<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   
+  </head>
+  <body>
+        <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <div class="container-fluid">
+                    <div class="navbar" >
+                      <span class="label" width="70"><a href="/">Home</a></span>
+                      <span class="label" width="70"><a href="/newsarticle">Articles</a></span>
+                      <span class="label" width="70"><a href="/newssource">Sources</a></span>
+                    </div>
+                  </div>
         </div>
-    </ul>
-    
+        
+    {% block navbar %}
+     {% include 'navbar.html' %}
+    {% endblock %}
+
+    <!-- content block -->
     {% block content %}
 
+
     {% endblock %}
-    </body>
+  </body>
 </html>

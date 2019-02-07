@@ -9,7 +9,7 @@ class SourcesTest(unittest.TestCase):
         '''
         Setup function that will run before every test
         '''
-        self.new_source = Source('CNN','CNN','CNN NEWS','https://yahoo.com','general','english','ke')
+        self.new_source = Source('Yahoo','Yahoo','Yahoo NEWS','https://yahoo.com','general','english','ke')
 
     def test_instance(self):
         self.assertTrue(isinstance(self.new_source,Sources))
@@ -18,9 +18,9 @@ class SourcesTest(unittest.TestCase):
         '''
         Test function to check instance variables
         '''
-        self.assertEquals(self.new_source.id,'CNN')
-        self.assertEquals(self.new_source.name,'CNN')
-        self.assertEquals(self.new_source.description,'CNN NEWS')
+        self.assertEquals(self.new_source.id,'Yahoo')
+        self.assertEquals(self.new_source.name,'Yahoo')
+        self.assertEquals(self.new_source.description,'Yahoo NEWS')
         self.assertEquals(self.new_source.url,'https://yahoo.com')
         self.assertEquals(self.new_source.category,'general')
         self.assertEquals(self.new_source.language,'english')
