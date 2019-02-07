@@ -5,9 +5,9 @@
 ## Author
 
  **Ian Kabugi** 
- 
+
 ### Pre-requisites
-* [Python 3.7.2](https://www.python.org/)
+* Python 3.6.2
 * preferred IDE
 
 
@@ -23,16 +23,11 @@
     ./start.sh
 ### User Stories
 
-* A user should see various news sources on the homepage.
+* A user should see various news sources on the news corporation page.
 * A user should see all news articles from a selected news source.
-* A user should see the image, description and time that an article was created.
+* A user should see the title,description and time that an article was created.
 * A user should be able to read the full article on the sources website.
 
-### In addition:
-
-* A user should be able to search for articles according to the source name.
-* A user should not lose news articles snippet on relaunch of the app (flask sessions).
-* A user should have a favourites section where they will be able to add their favourite news sources and store them in a browser cookie.
 
 ### BDD
 |     | Behaviour    |          Input                  | Output    | 
@@ -46,4 +41,41 @@
 
 **Powered by** [ NEWS API](https://newsapi.org/)
 
-##licence
+## Known Bugs
+  
+  none at the time of development
+
+## Technologies
+
+* Python
+* git
+
+### Support and contact details
+
+* email: iank299@gmail.com
+* Tel: +254703456965
+* githubusername: iankabugi
+
+### License
+
+                        MIT License
+
+        Copyright (c) [2019] [Ian Kabugi]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
